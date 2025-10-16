@@ -61,6 +61,7 @@ func main() {
 
 	// Create the reverse proxy
 	proxy := httputil.NewSingleHostReverseProxy(targetURL)
+	proxy.FlushInterval = -1
 
 	// Customize the proxy to add authentication
 	originalDirector := proxy.Director
