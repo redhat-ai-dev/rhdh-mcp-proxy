@@ -1,5 +1,8 @@
 # RHDH MCP Proxy
 
+> [!WARNING]
+> This repository has been retired and will no longer be maintained. It has been moved to [redhat-developer/rhdh-mcp-proxy](https://github.com/redhat-developer/rhdh-mcp-proxy).
+
 A simple Go-based HTTP proxy service that forwards requests to MCP servers running on a Backstage instance with authentication support.
 
 ## Features
